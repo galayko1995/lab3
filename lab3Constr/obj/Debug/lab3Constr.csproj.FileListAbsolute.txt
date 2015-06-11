@@ -1,0 +1,11 @@
+C:\Users\Serg\Documents\GitHub\lab3\lab3Constr\bin\Debug\lab3Constr.exe
+C:\Users\Serg\Documents\GitHub\lab3\lab3Constr\bin\Debug\lab3Constr.pdb
+C:\Users\Serg\Documents\GitHub\lab3\lab3Constr\bin\Debug\MetroFramework.Design.dll
+C:\Users\Serg\Documents\GitHub\lab3\lab3Constr\bin\Debug\MetroFramework.dll
+C:\Users\Serg\Documents\GitHub\lab3\lab3Constr\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Serg\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.csprojResolveAssemblyReference.cache
+C:\Users\Serg\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.Form1.resources
+C:\Users\Serg\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.Properties.Resources.resources
+C:\Users\Serg\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.csproj.GenerateResource.Cache
+C:\Users\Serg\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.exe
+C:\Users\Serg\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.pdb
