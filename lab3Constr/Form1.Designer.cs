@@ -123,9 +123,9 @@
             // lblTimerCount
             // 
             this.lblTimerCount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTimerCount.Location = new System.Drawing.Point(505, 174);
+            this.lblTimerCount.Location = new System.Drawing.Point(96, 174);
             this.lblTimerCount.Name = "lblTimerCount";
-            this.lblTimerCount.Size = new System.Drawing.Size(130, 19);
+            this.lblTimerCount.Size = new System.Drawing.Size(539, 19);
             this.lblTimerCount.TabIndex = 5;
             this.lblTimerCount.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
