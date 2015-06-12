@@ -35,6 +35,7 @@
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.InitialData = new MetroFramework.Controls.MetroTextBox();
             this.resultData = new MetroFramework.Controls.MetroTextBox();
+            this.lblTimerCount = new MetroFramework.Controls.MetroLabel();
             this.SuspendLayout();
             // 
             // metroLabel1
@@ -74,6 +75,7 @@
             this.fastSort.TabIndex = 4;
             this.fastSort.Text = "Быстрая сортировка";
             this.fastSort.UseSelectable = true;
+            this.fastSort.Click += new System.EventHandler(this.fastSort_Click);
             // 
             // metroLabel2
             // 
@@ -86,12 +88,16 @@
             // 
             // InitialData
             // 
+            this.InitialData.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.InitialData.Lines = new string[0];
             this.InitialData.Location = new System.Drawing.Point(23, 148);
             this.InitialData.MaxLength = 32767;
+            this.InitialData.Multiline = true;
             this.InitialData.Name = "InitialData";
             this.InitialData.PasswordChar = '\0';
-            this.InitialData.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.InitialData.ReadOnly = true;
+            this.InitialData.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.InitialData.SelectedText = "";
             this.InitialData.Size = new System.Drawing.Size(612, 23);
             this.InitialData.TabIndex = 7;
@@ -99,16 +105,29 @@
             // 
             // resultData
             // 
+            this.resultData.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.resultData.Lines = new string[0];
             this.resultData.Location = new System.Drawing.Point(23, 196);
             this.resultData.MaxLength = 32767;
+            this.resultData.Multiline = true;
             this.resultData.Name = "resultData";
             this.resultData.PasswordChar = '\0';
-            this.resultData.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.resultData.ReadOnly = true;
+            this.resultData.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.resultData.SelectedText = "";
             this.resultData.Size = new System.Drawing.Size(612, 23);
             this.resultData.TabIndex = 8;
             this.resultData.UseSelectable = true;
+            // 
+            // lblTimerCount
+            // 
+            this.lblTimerCount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTimerCount.Location = new System.Drawing.Point(505, 174);
+            this.lblTimerCount.Name = "lblTimerCount";
+            this.lblTimerCount.Size = new System.Drawing.Size(130, 19);
+            this.lblTimerCount.TabIndex = 5;
+            this.lblTimerCount.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // Form1
             // 
@@ -117,6 +136,7 @@
             this.ClientSize = new System.Drawing.Size(658, 238);
             this.Controls.Add(this.resultData);
             this.Controls.Add(this.InitialData);
+            this.Controls.Add(this.lblTimerCount);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.fastSort);
             this.Controls.Add(this.sort1);
@@ -139,6 +159,7 @@
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroTextBox InitialData;
         private MetroFramework.Controls.MetroTextBox resultData;
+        private MetroFramework.Controls.MetroLabel lblTimerCount;
     }
 }
 
