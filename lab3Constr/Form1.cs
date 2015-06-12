@@ -51,7 +51,7 @@ namespace lab3Constr
             sw.Start();
             InsertionSort.insertionSort(ref Array, 0, Array.Length);
             sw.Stop();
-            lblTimerCount.Text = "Sorted in " + sw.ElapsedTicks * 1000000+ "ns";
+            lblTimerCount.Text = "Sorted in " + sw.Elapsed.TotalMilliseconds * 1000000 + "ns";
             sw.Reset();
             SetResult();
         }
@@ -64,7 +64,7 @@ namespace lab3Constr
         private void fastSort_Click(object sender, EventArgs e)
         {
             sw.Start();
-            Qsort.quicksort(ref Array, 0, Array.Length-1);
+            QuickSort.quicksort(ref Array, 0, Array.Length - 1);
             sw.Stop();
             lblTimerCount.Text = "Sorted in " + sw.Elapsed.TotalMilliseconds * 1000000 + "ns";
             sw.Reset();

@@ -17,3 +17,11 @@ C:\Users\Starbursts\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.csproj
 C:\Users\Starbursts\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.Form1.resources
 C:\Users\Starbursts\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.Properties.Resources.resources
 C:\Users\Starbursts\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.csproj.GenerateResource.Cache
+C:\Users\Sebastian\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.exe
+C:\Users\Sebastian\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.pdb
+C:\Users\Sebastian\Documents\GitHub\lab3\lab3Constr\bin\Debug\lab3Constr.exe
+C:\Users\Sebastian\Documents\GitHub\lab3\lab3Constr\bin\Debug\lab3Constr.pdb
+C:\Users\Sebastian\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.Form1.resources
+C:\Users\Sebastian\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.Properties.Resources.resources
+C:\Users\Sebastian\Documents\GitHub\lab3\lab3Constr\obj\Debug\lab3Constr.csproj.GenerateResource.Cache
