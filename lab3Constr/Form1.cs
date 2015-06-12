@@ -51,7 +51,7 @@ namespace lab3Constr
             sw.Start();
             //InsertionSort.insertionSort(ref Array, 0, Array.Length);
             sw.Stop();
-            lblTimerCount.Text = "Отсортировано за " + sw.Elapsed.TotalMilliseconds * 1000000 + " наносекунд";
+            //lblTimerCount.Text = "Отсортировано за " + sw.Elapsed.TotalMilliseconds * 1000000 + " наносекунд";
             sw.Reset();
             SetResult();
         }
@@ -66,7 +66,7 @@ namespace lab3Constr
             sw.Start();
             //QuickSort.quicksort(ref Array, 0, Array.Length - 1);
             sw.Stop();
-            lblTimerCount.Text = "Отсортировано за " + sw.Elapsed.TotalMilliseconds * 1000000 + " наносекунд";
+            //lblTimerCount.Text = "Отсортировано за " + sw.Elapsed.TotalMilliseconds * 1000000 + " наносекунд";
             sw.Reset();
             SetResult();
         }
