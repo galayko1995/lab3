@@ -49,7 +49,7 @@ namespace lab3Constr
         private void sort1_Click(object sender, EventArgs e)
         {
             sw.Start();
-            //InsertionSort.insertionSort(ref Array, 0, Array.Length);
+            InsertionSort.insertionSort(ref Array, 0, Array.Length);
             sw.Stop();
             lblTimerCount.Text = "Отсортировано за " + sw.Elapsed.TotalMilliseconds * 1000000 + " наносекунд";
             sw.Reset();
@@ -64,7 +64,7 @@ namespace lab3Constr
         private void fastSort_Click(object sender, EventArgs e)
         {
             sw.Start();
-            //QuickSort.quicksort(ref Array, 0, Array.Length - 1);
+            QuickSort.quicksort(ref Array, 0, Array.Length - 1);
             sw.Stop();
             lblTimerCount.Text = "Отсортировано за " + sw.Elapsed.TotalMilliseconds * 1000000 + " наносекунд";
             sw.Reset();
